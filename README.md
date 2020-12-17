@@ -20,7 +20,7 @@
 
    ①修改notelist_item.xml文件，新增一条TextView，用于显示时间戳。
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/notelist_item_lay.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/notelist_item_lay.jpg)
 
    ②打开NoteList.java，在 PROJECTION 中加入修改时间条目 NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE，应用显示笔记时，获取 PROJECTION 中设定的值。
 
@@ -49,7 +49,7 @@
 
    设置完后，每次修改 note ，点击保存都会将当前时间作为修改时间，存入到数据库中并在 NoteList 中显示
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/title_time.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/title_time.jpg)
 
 2. 新增查询功能：
 
@@ -74,7 +74,7 @@
 
    PROJECTION 中存放需查询的数据
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_search_1.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_search_1.jpg)
 
    复写 onCreate、onQueryTextChange 两个方法
 
@@ -185,11 +185,11 @@
 
    设置好后，NoteList 界面菜单栏会显示 SEARCH 选项，点击进行搜索
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_search_2.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_search_2.jpg)
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_search_3.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_search_3.jpg)
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_search_4.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_search_4.jpg)
 
 **二、其他功能实现**
 
@@ -225,7 +225,7 @@
    </LinearLayout>
    ```
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_changec_2.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_changec_2.jpg)
 
    然后在 editor_options_menu.xml 中添加菜单项：一级菜单 改变颜色，二级菜单 改变背景颜色 与 改变字体颜色。
 
@@ -245,7 +245,7 @@
    </menu>
    ```
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_changec_1.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_changec_1.jpg)
 
    在 NoteEditor.java 中的 onOptionsItemSelected() 设置菜单的响应操作，case id 为上面子菜单的 id。
 
@@ -454,11 +454,11 @@
 
    实现界面：
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_changec_3.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_changec_3.jpg)
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_changec_4.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_changec_4.jpg)
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_changec_5.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_changec_5.jpg)
 
 2. 新增提醒功能
 
@@ -468,7 +468,7 @@
 
    新布局使用 线性布局、垂直分布，上方按钮，下方 EditText 直接使用，无影响。
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_alert_1.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_alert_1.jpg)
 
    然后在 editor_options_menu.xml 中添加菜单项：一级菜单 设置提醒时间，二级菜单 选择日期 与 选择时间。
 
@@ -488,7 +488,7 @@
    </menu>
    ```
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_changec_1.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_changec_1.jpg)
 
    在 NoteEditor.java 中的 onOptionsItemSelected() 设置菜单的响应操作，case id 为上面子菜单的 id。
 
@@ -599,13 +599,13 @@
 
    如图：
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_alert_2.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_alert_2.jpg)
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_alert_3.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_alert_3.jpg)
 
    选择时间后，选择的时间将显示在按钮上：
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_alert_4.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_alert_4.jpg)
 
    点击保存后，获取时间并通过 Boardcoast 广播到系统，到时便在系统通知中提醒
 
@@ -688,15 +688,15 @@
 
    最重要的一步：注册表
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_alert_8.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_alert_8.jpg)
 
    实现效果：
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_alert_5.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_alert_5.jpg)
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_alert_6.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_alert_6.jpg)
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_alert_7.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_alert_7.jpg)
 
    *小功能：取消提醒时间，点击 设置提醒时间 按钮即可取消提醒。
 
@@ -726,8 +726,9 @@
        }
    ```
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_cancelalert_1.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_cancelalert_1.jpg)
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_cancelalert_2.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_cancelalert_2.jpg)
 
-   ![image](https://github.com/vency799/middle_experiment/blob/master/note_cancelalert_3.jpg)
+   ![image](https://github.com/vency799/mid-trem-test/blob/master/note_cancelalert_3.jpg)
+
