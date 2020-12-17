@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C11313"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2DA32D"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1C1CB3"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        />
+    <Button
+        android:id="@+id/grey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#666666"
+        android:layout_weight="1"
+        android:onClick="onClick"
+        />
+</LinearLayout>

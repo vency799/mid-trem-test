@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NotePad</string>
+    <string name="button_ok">OK</string>
+    <string name="changebackcolor">改变背景颜色</string>
+    <string name="changecolor">改变颜色</string>
+    <string name="changetextcolor">改变字体颜色</string>
+    <string name="choice">提醒时间</string>
+    <string name="choicedate">选择日期</string>
+    <string name="choicetime">选择时间</string>
+    <string name="error_message">Error loading note</string>
+    <string name="error_title">Error</string>
+    <string name="live_folder_name">Notes</string>
+    <string name="menu_add">New note</string>
+    <string name="menu_copy">Copy</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_open">Open</string>
+    <string name="menu_paste">Paste</string>
+    <string name="menu_revert">Revert changes</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_search">Search</string>
+    <string name="nothing_to_save">There is nothing to save</string>
+    <string name="resolve_edit">Edit note</string>
+    <string name="resolve_title">Edit title</string>
+    <string name="search_note">SearchNotes</string>
+    <string name="setalert">设置提醒时间</string>
+    <string name="text_title">Title:</string>
+    <string name="title_create">New note</string>
+    <string name="title_edit">Edit: %1$s</string>
+    <string name="title_edit_title">Note title:</string>
+    <string name="title_notes_list">Notes</string>
+</resources>
